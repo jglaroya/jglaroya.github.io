@@ -46,5 +46,8 @@ b {
 		width: 100%;
 		display: block;
 	}
+	.header {
+		font-size: 72px;
+	}
 }
 	
