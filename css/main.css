@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+  background: #59ABE3;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: helvetica;
+  position: relative;
+  z-index: 1;
+}
+p {
+  font-size: 22px;
+  font-family: Montserrat;
+}
+input {
+  border: 0;
+  padding: 10px;
+  font-size: 18px;
+}
+input[type="submit"] {
+  background: red;
+  color: white;
+}
+.header {
+    margin: 50px;
+}
+b {
+    font-size: 50px;
+}
+#fb {
+    margin: 10px;
+}
+#ig {
+    margin: 10px;
+}
