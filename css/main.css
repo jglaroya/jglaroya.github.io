@@ -38,3 +38,13 @@ b {
 #linkedin {
     margin: 10px;
 }
+
+@media only screen and (max-width: 800px) {
+	/* For mobile: */
+
+	span {
+		width: 100%;
+		display: block;
+	}
+}
+	
