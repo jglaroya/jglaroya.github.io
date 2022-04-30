@@ -79,6 +79,7 @@ b {
 	}
 	.links img {
 		height: 100px;
+		width: 100px;
 	}
 	.footer {
 		display: block;
@@ -90,8 +91,10 @@ b {
 		text-align: center;
 		font-size: 15px;
 		line-height= 22px;
+		width: 100%;
 	}
 	#nna {
 		line-height=100px;
+		width: 100%;
 	}
 }	
