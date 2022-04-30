@@ -43,7 +43,7 @@ b {
 	font-size: 10px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1500px) {
 	/* For mobile: */
 	
 	.links img {
