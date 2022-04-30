@@ -29,7 +29,7 @@ b {
 #fb, #ig, #linkedin {
 	margin: 10px;
 }
-.footer {
+.footer, .footer p {
 	position: fixed;
  	left: 0;
 	bottom: 0;
