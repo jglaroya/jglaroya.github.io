@@ -13,26 +13,23 @@ body {
   position: relative;
   z-index: 1;
 }
-p {
-  font-size: 22px;
-  font-family: Montserrat;
-}
 .header {
-    margin: 50px;
+	display: block;
+	margin: 50px;
+}
+.content p {
+	font-size: 22px;
+	font-family: Montserrat;
+}
+.content{
+	display: block;
 }
 b {
     font-size: 50px;
 }
-#fb {
-    margin: 10px;
+#fb, #ig, #linkedin {
+	margin: 10px;
 }
-#ig {
-    margin: 10px;
-}
-#linkedin {
-    margin: 10px;
-}
-
 .footer {
 	position: fixed;
  	left: 0;
@@ -46,6 +43,15 @@ b {
 @media only screen and (max-width: 1500px) {
 	/* For mobile: */
 	
+	.header {
+		display: block;
+		font-size: 90px;
+		margin: 50px auto;
+	}
+	.content p {
+		font-size: 15px;
+		font-family: Montserrat;
+	}
 	.links {
 		display: block;
 		height: 100px;
@@ -54,15 +60,14 @@ b {
 		margin-right: auto;
 		margin-bottom: 10%;
 		margin-top: 10%;
+		padding: 
 	}
 	.links img {
-		height: 50%;
-		width: 50%;
+		height: auto;
+		width: auto;
 		display: inline-block;
-	}
-	.header {
-		font-size: 90px;
-		margin: 50px auto;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	.footer {
 		position: sticky;
