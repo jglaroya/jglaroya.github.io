@@ -44,8 +44,7 @@ b {
 	font-family: Montserrat;
 	color: white;
   	text-align: center;
-	font-size: 22px;
-	text-align: center;
+	font-size: 25px;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -76,10 +75,16 @@ b {
 	.footer {
 		display: block;
 		width: 100%;
+		position: relative;
+		bottom: 20px;
 	}
 	.footer p {
 		color: white;
 		text-align: center;
-		font-size: 10px;
+		font-size: 15px;
+		line-height= 22px;
+	}
+	#nna {
+		line-height=100px;
 	}
 }	
