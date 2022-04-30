@@ -17,7 +17,6 @@ body {
 	display: block;
 	margin: 50px;
 	font-family: Montserrat;
-	width: 100%;
 }
 .content{
 	display: block;
@@ -60,7 +59,6 @@ b {
 		font-size: 50px;
 		margin-top: 50px;
 		margin-bottom: 30px;
-		width: 100%;
 	}
 	.header p {
 		margin-bottom: 25px;
@@ -78,15 +76,12 @@ b {
 		margin-right: auto;
 		margin-bottom: 10px;
 		margin-top: 10px;
-		width: 100%;
 	}
 	.links img {
 		height: 100px;
-		width: 100px;
 	}
 	.footer {
 		display: block;
-		width: 100%;
 		position: fixed;
 		bottom: 200px;
 	}
