@@ -49,16 +49,11 @@ b {
 	span {
 		width: 100%;
 		display: block;
-		margin: 50px;
+		margin-left: auto;
+		margin-right: auto;
 	}
-	
-	links {
-		text-align: center;
-	}
-	
 	.header {
 		font-size: 90px;
 		margin: 50px auto;
 	}
-}
-	
+}	
