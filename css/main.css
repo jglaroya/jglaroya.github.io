@@ -58,8 +58,7 @@ b {
 	.links img {
 		height: 50%;
 		width: 50%;
-		margin-left: auto;
-		margin-right: auto;
+		padding: 100%;
 	}
 	.header {
 		font-size: 90px;
