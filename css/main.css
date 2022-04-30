@@ -47,9 +47,10 @@ b {
 	/* For mobile: */
 
 	span {
-		width: 50%;
+		width: 20%;
 		display: block;
 		margin: 50px;
+		text-align: center
 	}
 	.header {
 		font-size: 90px;
