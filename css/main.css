@@ -16,13 +16,12 @@ body {
 .header {
 	display: block;
 	margin: 50px;
-}
-.content p {
-	font-size: 22px;
 	font-family: Montserrat;
 }
 .content{
 	display: block;
+	font-size: 22px;
+	font-family: Montserrat;
 }
 b {
     font-size: 50px;
@@ -37,7 +36,7 @@ b {
   	width: 100%;
   	color: white;
   	text-align: center;
-	font-size: 10px;
+	font-size: 22px;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -73,6 +72,6 @@ b {
 		width: 100%;
 		color: white;
 		text-align: center;
-		font-size: 5px;
+		font-size: 10px;
 	}
 }	
