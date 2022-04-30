@@ -63,12 +63,10 @@ b {
 		margin-right: auto;
 		margin-bottom: 10%;
 		margin-top: 10%;
-		padding: 0;
 	}
 	.links img {
 		height: 50%;
 		width: 50%;
-		display: inline-block;
 	}
 	.footer {
 		position: sticky;
