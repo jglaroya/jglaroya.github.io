@@ -60,14 +60,12 @@ b {
 		margin-right: auto;
 		margin-bottom: 10%;
 		margin-top: 10%;
-		padding: 
+		padding: 0;
 	}
 	.links img {
-		height: auto;
-		width: auto;
+		height: 50%;
+		width: 50%;
 		display: inline-block;
-		margin-left: auto;
-		margin-right: auto;
 	}
 	.footer {
 		position: sticky;
@@ -75,6 +73,6 @@ b {
 		width: 100%;
 		color: white;
 		text-align: center;
-		font-size: 10px;
+		font-size: 5px;
 	}
 }	
