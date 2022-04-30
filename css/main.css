@@ -31,12 +31,11 @@ b {
 #fb, #ig, #linkedin {
 	margin: 10px;
 }
-.footer, .footer p {
+.footer{
 	position: fixed;
  	left: 0;
 	bottom: 0;
   	width: 100%;
-
 }
 .footer p {
 	font-family: Montserrat;
@@ -51,16 +50,13 @@ b {
 	.header {
 		display: block;
 		font-size: 90px;
-		margin: 50px auto;
 	}
 	.content p {
-		font-size: 15px;
+		font-size: 20px;
 		font-family: Montserrat;
 	}
 	.links {
 		display: block;
-		height: 100px;
-		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 10%;
