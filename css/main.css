@@ -20,6 +20,8 @@ body {
 }
 .content{
 	display: block;
+}
+.content p {
 	font-size: 22px;
 	font-family: Montserrat;
 }
@@ -34,7 +36,10 @@ b {
  	left: 0;
 	bottom: 0;
   	width: 100%;
-  	color: white;
+
+}
+.footer p {
+	color: white;
   	text-align: center;
 	font-size: 22px;
 }
@@ -70,6 +75,8 @@ b {
 		position: sticky;
 		bottom: 0;
 		width: 100%;
+	}
+	.footer p {
 		color: white;
 		text-align: center;
 		font-size: 10px;
