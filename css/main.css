@@ -34,18 +34,27 @@ b {
 }
 
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-align: center;
+	position: fixed;
+ 	left: 0;
+	bottom: 0;
+  	width: 100%;
+  	color: white;
+  	text-align: center;
+	font-size: 10px;
 }
-
 
 @media only screen and (max-width: 800px) {
 	/* For mobile: */
-
+	
+	.links img {
+		height: 100%;
+		width: 100%;
+		object-fit: contain;
+	}
+	.links {
+		height: 50px;
+		width: 50px;
+	}
 	span {
 		width: 100%;
 		display: block;
