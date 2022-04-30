@@ -46,18 +46,18 @@ b {
 @media only screen and (max-width: 1500px) {
 	/* For mobile: */
 	
-	.links img {
-		height: 100%;
-		width: 100%;
-		object-fit: contain;
-	}
 	.links {
-		height: 100px;
-		width: 100px;
-	}
-	span {
-		width: 100%;
 		display: block;
+		height: 100px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10%;
+		margin-top: 10%;
+	}
+	.links img {
+		height: 50%;
+		width: 50%;
 		margin-left: auto;
 		margin-right: auto;
 	}
