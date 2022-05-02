@@ -4,7 +4,7 @@ a {
   text-decoration: underline;
   text-color: white;
 }
-header {
+header, footer {
 	font-family: Montserrat;
 }
 body {
