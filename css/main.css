@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 
-a    {
-  text-decoration: none;
+a {
+  text-decoration: underline;
+  text-color: white;
+}
+header {
+	font-family: Montserrat;
 }
 body {
   text-align: center;
