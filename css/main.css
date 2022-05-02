@@ -4,8 +4,15 @@ a {
   text-decoration: underline;
   text-color: white;
 }
-header, footer {
+a:visited {
+	color: white;
+}
+div {
+	margin: 30px 0px 30px;
+}
+header, h1 {
 	font-family: Montserrat;
+	margin: 30px 0px 30px;
 }
 body {
   text-align: center;
@@ -17,17 +24,11 @@ body {
   position: relative;
   z-index: 1;
 }
-.header {
-	display: block;
-	margin: 50px;
-	font-family: Montserrat;
-}
 .content{
-	display: block;
 	width: 100%;
 }
 .content p {
-	font-size: 30px;
+	font-size: 35px;
 	font-family: Montserrat;
 }
 b {
@@ -41,8 +42,13 @@ b {
 #fb, #ig, #linkedin {
 	margin: 10px;
 }
-.footer{
+footer {
 	display: block;
+	font-family: Montserrat;
+	color: white;
+	font-size: 25px;
+}
+/* .footer{
   	width: 100%;
 	height: 10px;
 	position: fixed;
@@ -53,29 +59,31 @@ b {
 	color: white;
   	text-align: center;
 	font-size: 25px;
-}
+}*/
 
 @media only screen and (max-width: 1500px) {
 	/* For mobile: */
-	
-	.header {
-		display: block;
+
+	header, h1 {
+		font-family: Montserrat;
+		margin: 30px 0px 25px;
+	}
+	/*.header {
 		font-size: 50px;
 		margin-top: 50px;
 		margin-bottom: 30px;
 	}
 	.header p {
 		margin-bottom: 25px;
-	}
+	}*/
 	.content {
 		width: 100%;
 	}
 	.content p {
-		font-size: 20px;
+		font-size: 25px;
 		font-family: Montserrat;
 	}
 	.links {
-		display: block;
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 10px;
@@ -85,20 +93,24 @@ b {
 		height: 100px;
 		width: 100px;
 	}
-	.footer {
-		display: block;
+	footer {
+		font-family: Montserrat;
+		color: white;
+		font-size: 20px;
+	}
+	/*footer {
 		position: fixed;
 		bottom: 200px;
 	}
-	.footer p {
+	footer p {
 		color: white;
 		text-align: center;
 		font-size: 15px;
 		line-height= 22px;
 		width: 100%;
-	}
+	}*/
 	#nna {
 		line-height=100px;
 		width: 100%;
 	}
-}	
+}
