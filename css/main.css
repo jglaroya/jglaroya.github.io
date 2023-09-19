@@ -27,7 +27,7 @@ body {
 .content{
 	width: 100%;
 }
-.content p {
+.content p, li {
 	font-size: 35px;
 	font-family: Montserrat;
 }
@@ -79,7 +79,7 @@ footer {
 	.content {
 		width: 100%;
 	}
-	.content p {
+	.content p, li {
 		font-size: 25px;
 		font-family: Montserrat;
 	}
